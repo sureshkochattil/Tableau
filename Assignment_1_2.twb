@@ -1,0 +1,1216 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20183.18.1219.1533                               -->
+<workbook original-version='18.1' source-build='2018.3.2 (20183.18.1219.1533)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (Census)' inline='true' name='federated.13u7pvu00fcdzt18hlmz216dhovq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Census' name='excel-direct.1h1shwx0kqifpw15cj43r0m0uele'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/sures/OneDrive/Documents/Tableau_course_files/Census.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1h1shwx0kqifpw15cj43r0m0uele' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:BQ10001:no:A1:BQ10001:0' header='yes' outcome='6'>
+            <column datatype='integer' name='caseid' ordinal='0' />
+            <column datatype='integer' name='dAge' ordinal='1' />
+            <column datatype='integer' name='dAncstry1' ordinal='2' />
+            <column datatype='integer' name='dAncstry2' ordinal='3' />
+            <column datatype='integer' name='iAvail' ordinal='4' />
+            <column datatype='integer' name='iCitizen' ordinal='5' />
+            <column datatype='integer' name='iClass' ordinal='6' />
+            <column datatype='integer' name='dDepart' ordinal='7' />
+            <column datatype='integer' name='iDisabl1' ordinal='8' />
+            <column datatype='integer' name='iDisabl2' ordinal='9' />
+            <column datatype='integer' name='iEnglish' ordinal='10' />
+            <column datatype='integer' name='iFeb55' ordinal='11' />
+            <column datatype='integer' name='iFertil' ordinal='12' />
+            <column datatype='integer' name='dHispanic' ordinal='13' />
+            <column datatype='integer' name='dHour89' ordinal='14' />
+            <column datatype='integer' name='dHours' ordinal='15' />
+            <column datatype='integer' name='iImmigr' ordinal='16' />
+            <column datatype='integer' name='dIncome1' ordinal='17' />
+            <column datatype='integer' name='dIncome2' ordinal='18' />
+            <column datatype='integer' name='dIncome3' ordinal='19' />
+            <column datatype='integer' name='dIncome4' ordinal='20' />
+            <column datatype='integer' name='dIncome5' ordinal='21' />
+            <column datatype='integer' name='dIncome6' ordinal='22' />
+            <column datatype='integer' name='dIncome7' ordinal='23' />
+            <column datatype='integer' name='dIncome8' ordinal='24' />
+            <column datatype='integer' name='dIndustry' ordinal='25' />
+            <column datatype='integer' name='iKorean' ordinal='26' />
+            <column datatype='integer' name='iLang1' ordinal='27' />
+            <column datatype='integer' name='iLooking' ordinal='28' />
+            <column datatype='integer' name='iMarital' ordinal='29' />
+            <column datatype='integer' name='iMay75880' ordinal='30' />
+            <column datatype='integer' name='iMeans' ordinal='31' />
+            <column datatype='integer' name='iMilitary' ordinal='32' />
+            <column datatype='integer' name='iMobility' ordinal='33' />
+            <column datatype='integer' name='iMobillim' ordinal='34' />
+            <column datatype='integer' name='dOccup' ordinal='35' />
+            <column datatype='integer' name='iOthrserv' ordinal='36' />
+            <column datatype='integer' name='iPerscare' ordinal='37' />
+            <column datatype='integer' name='dPOB' ordinal='38' />
+            <column datatype='integer' name='dPoverty' ordinal='39' />
+            <column datatype='integer' name='dPwgt1' ordinal='40' />
+            <column datatype='integer' name='iRagechld' ordinal='41' />
+            <column datatype='integer' name='dRearning' ordinal='42' />
+            <column datatype='integer' name='iRelat1' ordinal='43' />
+            <column datatype='integer' name='iRelat2' ordinal='44' />
+            <column datatype='integer' name='iRemplpar' ordinal='45' />
+            <column datatype='integer' name='iRiders' ordinal='46' />
+            <column datatype='integer' name='iRlabor' ordinal='47' />
+            <column datatype='integer' name='iRownchld' ordinal='48' />
+            <column datatype='integer' name='dRpincome' ordinal='49' />
+            <column datatype='integer' name='iRPOB' ordinal='50' />
+            <column datatype='integer' name='iRrelchld' ordinal='51' />
+            <column datatype='integer' name='iRspouse' ordinal='52' />
+            <column datatype='integer' name='iRvetserv' ordinal='53' />
+            <column datatype='integer' name='iSchool' ordinal='54' />
+            <column datatype='integer' name='iSept80' ordinal='55' />
+            <column datatype='integer' name='iSex' ordinal='56' />
+            <column datatype='integer' name='iSubfam1' ordinal='57' />
+            <column datatype='integer' name='iSubfam2' ordinal='58' />
+            <column datatype='integer' name='iTmpabsnt' ordinal='59' />
+            <column datatype='integer' name='dTravtime' ordinal='60' />
+            <column datatype='integer' name='iVietnam' ordinal='61' />
+            <column datatype='integer' name='dWeek89' ordinal='62' />
+            <column datatype='integer' name='iWork89' ordinal='63' />
+            <column datatype='integer' name='iWorklwk' ordinal='64' />
+            <column datatype='integer' name='iWWII' ordinal='65' />
+            <column datatype='integer' name='iYearsch' ordinal='66' />
+            <column datatype='integer' name='iYearwrk' ordinal='67' />
+            <column datatype='integer' name='dYrsserv' ordinal='68' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>caseid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[caseid]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>caseid</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dAge</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dAge]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dAge</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dAncstry1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dAncstry1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dAncstry1</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dAncstry2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dAncstry2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dAncstry2</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iAvail</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iAvail]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iAvail</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iCitizen</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iCitizen]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iCitizen</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iClass</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iClass]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iClass</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dDepart</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dDepart]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dDepart</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iDisabl1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iDisabl1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iDisabl1</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iDisabl2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iDisabl2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iDisabl2</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iEnglish</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iEnglish]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iEnglish</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iFeb55</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iFeb55]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iFeb55</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iFertil</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iFertil]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iFertil</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dHispanic</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dHispanic]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dHispanic</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dHour89</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dHour89]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dHour89</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dHours</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dHours]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dHours</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iImmigr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iImmigr]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iImmigr</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dIncome1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dIncome1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dIncome1</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dIncome2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dIncome2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dIncome2</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dIncome3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dIncome3]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dIncome3</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dIncome4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dIncome4]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dIncome4</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dIncome5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dIncome5]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dIncome5</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dIncome6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dIncome6]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dIncome6</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dIncome7</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dIncome7]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dIncome7</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dIncome8</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dIncome8]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dIncome8</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dIndustry</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dIndustry]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dIndustry</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iKorean</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iKorean]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iKorean</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iLang1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iLang1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iLang1</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iLooking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iLooking]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iLooking</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iMarital</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iMarital]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iMarital</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iMay75880</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iMay75880]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iMay75880</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iMeans</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iMeans]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iMeans</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iMilitary</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iMilitary]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iMilitary</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iMobility</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iMobility]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iMobility</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iMobillim</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iMobillim]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iMobillim</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dOccup</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dOccup]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dOccup</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iOthrserv</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iOthrserv]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iOthrserv</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iPerscare</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iPerscare]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iPerscare</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dPOB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dPOB]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dPOB</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dPoverty</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dPoverty]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dPoverty</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dPwgt1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dPwgt1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dPwgt1</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iRagechld</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iRagechld]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iRagechld</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dRearning</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dRearning]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dRearning</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iRelat1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iRelat1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iRelat1</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iRelat2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iRelat2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iRelat2</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iRemplpar</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iRemplpar]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iRemplpar</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iRiders</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iRiders]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iRiders</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iRlabor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iRlabor]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iRlabor</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iRownchld</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iRownchld]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iRownchld</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dRpincome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dRpincome]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dRpincome</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iRPOB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iRPOB]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iRPOB</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iRrelchld</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iRrelchld]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iRrelchld</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iRspouse</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iRspouse]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iRspouse</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iRvetserv</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iRvetserv]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iRvetserv</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iSchool</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iSchool]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iSchool</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iSept80</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iSept80]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iSept80</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iSex</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iSex]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iSex</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iSubfam1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iSubfam1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iSubfam1</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iSubfam2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iSubfam2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iSubfam2</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iTmpabsnt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iTmpabsnt]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iTmpabsnt</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dTravtime</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dTravtime]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dTravtime</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iVietnam</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iVietnam]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iVietnam</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dWeek89</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dWeek89]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dWeek89</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iWork89</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iWork89]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iWork89</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iWorklwk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iWorklwk]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iWorklwk</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iWWII</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iWWII]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iWWII</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iYearsch</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iYearsch]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iYearsch</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iYearwrk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iYearwrk]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iYearwrk</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dYrsserv</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dYrsserv]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>dYrsserv</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BQ10001:no:A1:BQ10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Caseid' datatype='integer' name='[caseid]' role='measure' type='quantitative' />
+      <column caption='D Age' datatype='integer' name='[dAge]' role='measure' type='quantitative' />
+      <column caption='D Depart' datatype='integer' name='[dDepart]' role='measure' type='quantitative' />
+      <column caption='D Hispanic' datatype='integer' name='[dHispanic]' role='measure' type='quantitative' />
+      <column caption='D Hours' datatype='integer' name='[dHours]' role='measure' type='quantitative' />
+      <column caption='D Industry' datatype='integer' name='[dIndustry]' role='measure' type='quantitative' />
+      <column caption='D Occup' datatype='integer' name='[dOccup]' role='measure' type='quantitative' />
+      <column caption='D Pob' datatype='integer' name='[dPOB]' role='measure' type='quantitative' />
+      <column caption='D Poverty' datatype='integer' name='[dPoverty]' role='measure' type='quantitative' />
+      <column caption='D Rearning' datatype='integer' name='[dRearning]' role='measure' type='quantitative' />
+      <column caption='D Rpincome' datatype='integer' name='[dRpincome]' role='measure' type='quantitative' />
+      <column caption='D Travtime' datatype='integer' name='[dTravtime]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[dWeek89]' role='dimension' type='quantitative' />
+      <column caption='D Yrsserv' datatype='integer' name='[dYrsserv]' role='measure' type='quantitative' />
+      <column caption='I Avail' datatype='integer' name='[iAvail]' role='measure' type='quantitative' />
+      <column caption='I Citizen' datatype='integer' name='[iCitizen]' role='measure' type='quantitative' />
+      <column caption='I Class' datatype='integer' name='[iClass]' role='measure' type='quantitative' />
+      <column caption='I English' datatype='integer' name='[iEnglish]' role='measure' type='quantitative' />
+      <column caption='I Fertil' datatype='integer' name='[iFertil]' role='measure' type='quantitative' />
+      <column caption='I Immigr' datatype='integer' name='[iImmigr]' role='measure' type='quantitative' />
+      <column caption='I Korean' datatype='integer' name='[iKorean]' role='measure' type='quantitative' />
+      <column caption='I Looking' datatype='integer' name='[iLooking]' role='measure' type='quantitative' />
+      <column caption='I Marital' datatype='integer' name='[iMarital]' role='measure' type='quantitative' />
+      <column caption='I Means' datatype='integer' name='[iMeans]' role='measure' type='quantitative' />
+      <column caption='I Military' datatype='integer' name='[iMilitary]' role='measure' type='quantitative' />
+      <column caption='I Mobility' datatype='integer' name='[iMobility]' role='measure' type='quantitative' />
+      <column caption='I Mobillim' datatype='integer' name='[iMobillim]' role='measure' type='quantitative' />
+      <column caption='I Othrserv' datatype='integer' name='[iOthrserv]' role='measure' type='quantitative' />
+      <column caption='I Perscare' datatype='integer' name='[iPerscare]' role='measure' type='quantitative' />
+      <column caption='I Rpob' datatype='integer' name='[iRPOB]' role='measure' type='quantitative' />
+      <column caption='I Ragechld' datatype='integer' name='[iRagechld]' role='measure' type='quantitative' />
+      <column caption='I Remplpar' datatype='integer' name='[iRemplpar]' role='measure' type='quantitative' />
+      <column caption='I Riders' datatype='integer' name='[iRiders]' role='measure' type='quantitative' />
+      <column caption='I Rlabor' datatype='integer' name='[iRlabor]' role='measure' type='quantitative' />
+      <column caption='I Rownchld' datatype='integer' name='[iRownchld]' role='measure' type='quantitative' />
+      <column caption='I Rrelchld' datatype='integer' name='[iRrelchld]' role='measure' type='quantitative' />
+      <column caption='I Rspouse' datatype='integer' name='[iRspouse]' role='measure' type='quantitative' />
+      <column caption='I Rvetserv' datatype='integer' name='[iRvetserv]' role='measure' type='quantitative' />
+      <column caption='I School' datatype='integer' name='[iSchool]' role='measure' type='quantitative' />
+      <column caption='I Sex' datatype='integer' name='[iSex]' role='measure' type='quantitative' />
+      <column caption='I Tmpabsnt' datatype='integer' name='[iTmpabsnt]' role='measure' type='quantitative' />
+      <column caption='I Vietnam' datatype='integer' name='[iVietnam]' role='measure' type='quantitative' />
+      <column caption='I Wwii' datatype='integer' name='[iWWII]' role='measure' type='quantitative' />
+      <column caption='I Worklwk' datatype='integer' name='[iWorklwk]' role='measure' type='quantitative' />
+      <column caption='I Yearsch' datatype='integer' name='[iYearsch]' role='measure' type='quantitative' />
+      <column caption='I Yearwrk' datatype='integer' name='[iYearwrk]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.11898' measure-ordering='alphabetic' measure-percentage='0.88102' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.13u7pvu00fcdzt18hlmz216dhovq].[none:dWeek89:qk]</field>
+            <field>[federated.13u7pvu00fcdzt18hlmz216dhovq].[none:iSchool:qk]</field>
+            <field>[federated.13u7pvu00fcdzt18hlmz216dhovq].[none:iSex:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6CB950AC-ECD7-42EC-9F1C-12914D366719}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 6' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
